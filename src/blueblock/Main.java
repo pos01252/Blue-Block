@@ -46,7 +46,7 @@ public class Main extends JFrame implements MouseListener, KeyListener {
 
 	public static void main(String[] args) {
 		indirect = true;
-		new Main(16, 16, 4, 2, true, true);
+		new Main(16, 16, 3, 2, true, true);
 	}
 
 	public Main(int width, int height, int playerCount, int PowerUps, boolean HasMouse, boolean PlayerKill) {
@@ -130,7 +130,7 @@ public class Main extends JFrame implements MouseListener, KeyListener {
 				Humans.add(H1);
 				break;
 			case 2:
-				final Human H2 = new Human(FieldWidth - 2, FieldHeight  - 2, players, "Grüner Block");
+				final Human H2 = new Human(FieldWidth - 2, FieldHeight  - 2, players, "Grï¿½ner Block");
 				Main.H2 = H2;
 				Humans.add(H2);
 				break;
@@ -283,7 +283,7 @@ public class Main extends JFrame implements MouseListener, KeyListener {
 			case "k":
 				H3.Go(confused ? "right" : "left");
 				break;
-			case "ö":
+			case "ï¿½":
 				H3.Go(confused ? "left" : "right");
 				break;
 			case ":":
