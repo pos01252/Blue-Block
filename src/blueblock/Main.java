@@ -46,7 +46,7 @@ public class Main extends JFrame implements MouseListener, KeyListener {
 
 	public static void main(String[] args) {
 		indirect = true;
-		new Main(16, 16, 3, 2, true, true);
+		new Main(16, 16, 4, 2, true, true);
 	}
 
 	public Main(int width, int height, int playerCount, int PowerUps, boolean HasMouse, boolean PlayerKill) {
@@ -274,7 +274,7 @@ public class Main extends JFrame implements MouseListener, KeyListener {
 			case "j":
 				H2.Go(confused ? "left" : "right");
 				break;
-			case "z":
+			case "y":
 				H2.Go(confused ? "down" : "up");
 				break;
 			case "h":
@@ -283,10 +283,7 @@ public class Main extends JFrame implements MouseListener, KeyListener {
 			case "k":
 				H3.Go(confused ? "right" : "left");
 				break;
-			case "�":
-				H3.Go(confused ? "left" : "right");
-				break;
-			case ":":
+			case ";":
 				H3.Go(confused ? "left" : "right");
 				break;
 			case "o":
