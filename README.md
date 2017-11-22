@@ -31,7 +31,7 @@ I'm available for solutions :).
 - backward = `s`
 
 #### Player 2 (Green Block):
-- forward = `z`
+- forward = `y`
 - left = `g`
 - right = `j`
 - backward = `h`
@@ -39,7 +39,7 @@ I'm available for solutions :).
 #### Player 3 (Cyan Block)
 - forward = `o`
 - left = `k`
-- right = `ö` or `:`
+- right = `;`
 - backward = `l`
 
 #### Player 4 (Magenta Block)
